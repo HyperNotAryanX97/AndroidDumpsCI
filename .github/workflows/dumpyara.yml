@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: http://mtk-p.micromaxinfo.com/product/E6746/Software/India/MMX_E6746_SW_V10.0._HW_V1.0_20210416.zip
+  ROM_URL: https://download.pixelexperience.org/get/R3RucVV4SnhRaDJHUCtBd2pZVWREYW5kMFc4dXFON1Y0SnlyTDI1SWI4U2FVV2pzVW5xV0gzTExhcVVrbFhHMkVRdmRPK3ZCSE9EWm1nd09FUkVsNFJveU5LUE1ZUXhabG5waEVJQmlTOGc9
 
 jobs:
   build:
@@ -36,7 +36,7 @@ jobs:
          working-directory: phoenix_firmware_dumper
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
-              echo "${{ secrets.GIT_ORG_NAME }}" > .git_orgname
+              echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
 
