@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://download.pixelexperience.org/get/R3RucVV4SnhRaDJHUCtBd2pZVWREYW5kMFc4dXFON1Y0SnlyTDI1SWI4U2FVV2pzVW5xV0gzTExhcVVrbFhHMkVRdmRPK3ZCSE9EWm1nd09FUkVsNFJveU5LUE1ZUXhabG5waEVJQmlTOGc9
+  ROM_URL: http://aged-base-b1f7.kashifukato.workers.dev/0://miuipro_v11.0_begonia_21.6.10_patched_fix-en%2Cvi%2Cbr%2CrPT%2Cit.zip
 
 jobs:
   build:
