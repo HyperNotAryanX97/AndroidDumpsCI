@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.3.0.RJQCNXM/lime_images_V12.0.3.0.RJQCNXM_20210625.0000.00_11.0_cn_d77bdbeec8.tgz
+  ROM_URL: https://bigota.d.miui.com/V12.0.1.0.RJQMIXM/miui_LIMEGlobal_V12.0.1.0.RJQMIXM_a8eb7ba048_11.0.zip
 
 jobs:
   build:
