@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: http://aged-base-b1f7.kashifukato.workers.dev/0://miuipro_v11.0_begonia_21.6.10_patched_fix-en%2Cvi%2Cbr%2CrPT%2Cit.zip
+  ROM_URL: https://bigota.d.miui.com/V12.0.3.0.RJQCNXM/lime_images_V12.0.3.0.RJQCNXM_20210625.0000.00_11.0_cn_d77bdbeec8.tgz
 
 jobs:
   build:
