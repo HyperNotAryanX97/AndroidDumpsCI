@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://www.mediafire.com/file/7w3c4dz6p2w5296/Realme_C21_RMX3201_PU_11_A.29_210419_RFT.zip/file
+  ROM_URL: https://wenubgang.tk/2:/Realme_C21_RMX3201_PU_11_A.29_210419_RFT.zip
 
 jobs:
   build:
