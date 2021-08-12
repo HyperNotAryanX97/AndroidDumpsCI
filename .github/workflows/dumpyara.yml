@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.0.15.0.QJQMIXM/lime_global_images_V12.0.15.0.QJQMIXM_20210803.0000.00_10.0_global_fc98320a27.tgz
+  ROM_URL: https://download1472.mediafire.com/2fp4pri891sg/7w3c4dz6p2w5296/Realme_C21_RMX3201_PU_11_A.29_210419_RFT.zip
 
 jobs:
   build:
