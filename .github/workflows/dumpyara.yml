@@ -11,8 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://wenubgang.tk/2:/Realme_C21_RMX3201_PU_11_A.29_210419_RFT.zip
-
+  ROM_URL: https://wenubgang.tk/1:/A515FXXU4DUB1_A515FOJM4DUAE_XSG.zip
 jobs:
   build:
     runs-on: ubuntu-latest
