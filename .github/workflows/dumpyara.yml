@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://wenubgang.tk/1:/lineage-17.1-20210815-UNOFFICIAL-E6746.zip
+  ROM_URL: https://wenubgang.tk/1:/DerpFest-11-Official-Beta-juice-20210822-2320.zip
 jobs:
   build:
     runs-on: ubuntu-latest
