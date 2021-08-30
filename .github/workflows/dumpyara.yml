@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://wenubgang.tk/1:/LegionOS-v3.12-juice-20210826-OFFICIAL-GAPPS.zip
+  ROM_URL: https://fileload.coloros.com/491258RMX2111PU_11_A.37_210527_927c4ce0.zip
 jobs:
   build:
     runs-on: ubuntu-latest
