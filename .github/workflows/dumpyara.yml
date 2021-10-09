@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://fileload.coloros.com/491258RMX2111PU_11_A.37_210527_927c4ce0.zip
+  ROM_URL: https://aged-base-b1f7.kashifukato.workers.dev/0:/Android12-begonia-20211007-UNOFFICIAL-BY%E6%97%A0%E5%BF%83%281%29.zip
 jobs:
   build:
     runs-on: ubuntu-latest
