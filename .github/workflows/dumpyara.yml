@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://aged-base-b1f7.kashifukato.workers.dev/0:/Android12-begonia-20211007-UNOFFICIAL-BY%E6%97%A0%E5%BF%83%281%29.zip
+  ROM_URL: https://bigota.d.miui.com/V12.5.2.0.RJQMIXM/miui_LIMEGlobal_V12.5.2.0.RJQMIXM_6cb5b83b11_11.0.zip
 jobs:
   build:
     runs-on: ubuntu-latest
