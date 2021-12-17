@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V12.5.5.0.RJQCNXM/lime_images_V12.5.5.0.RJQCNXM_20211122.0000.00_11.0_cn_801d002dc3.tgz
+  ROM_URL: http://anu.inok189.workers.dev/juice/Nusantara_v3.4-11-juice-17122021-UNOFFICIAL-1235.zip
 jobs:
   build:
     runs-on: ubuntu-latest
