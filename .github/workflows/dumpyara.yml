@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: http://anu.inok189.workers.dev/juice/Nusantara_v3.4-11-juice-17122021-UNOFFICIAL-1235.zip
+  ROM_URL: https://wenub.levixx.workers.dev/0:/evolution-6.2.2-20220328-UNOFFICIAL-begonia-full.zip
 jobs:
   build:
     runs-on: ubuntu-latest
