@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://wenub.levixx.workers.dev/0:/evolution-6.2.2-20220328-UNOFFICIAL-begonia-full.zip
+  ROM_URL: https://wenub.levixx.workers.dev/0:/lineage-18.1-20220315-UNOFFICIAL-full-begonia.zip
 jobs:
   build:
     runs-on: ubuntu-latest
