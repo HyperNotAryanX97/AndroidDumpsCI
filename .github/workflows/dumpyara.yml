@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://wenub.levixx.workers.dev/0:/lineage-18.1-20220315-UNOFFICIAL-full-begonia.zip
+  ROM_URL: https://downloads.sourceforge.net/project/derpfest/toco/DerpFest-12-Official-Shinju-toco-20220507.zip?ts=gAAAAABideXFWA9HguL05gyBJvTTs7sTg2PnpCs9bTF2hYZImu6alwuwzH4cyUIepirEQIrZuUoxDeEKVaUb4b_0L9c5li1n2A%3D%3D&use_mirror=master&r=
 jobs:
   build:
     runs-on: ubuntu-latest
