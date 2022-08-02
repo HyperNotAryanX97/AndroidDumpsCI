@@ -11,8 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://downloads.sourceforge.net/project/derpfest/toco/DerpFest-12-Official-Shinju-toco-20220507.zip?ts=gAAAAABideXFWA9HguL05gyBJvTTs7sTg2PnpCs9bTF2hYZImu6alwuwzH4cyUIepirEQIrZuUoxDeEKVaUb4b_0L9c5li1n2A%3D%3D&use_mirror=master&r=
-jobs:
+  ROM_URL: https://rms01.realme.net/SW/realme%20service/realme%20C21/2074B/RMX3201export_11_C.09_2022031900060000.zip
   build:
     runs-on: ubuntu-latest
 
