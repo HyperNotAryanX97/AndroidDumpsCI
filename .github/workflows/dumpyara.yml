@@ -12,7 +12,7 @@ defaults:
 
 env:
   ROM_URL: https://rms01.realme.net/SW/realme%20service/realme%20C21/2074B/RMX3201export_11_C.09_2022031900060000.zip
-  jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
 
