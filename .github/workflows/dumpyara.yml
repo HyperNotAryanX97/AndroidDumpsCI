@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://rms01.realme.net/SW/realme%20service/realme%20C21/2074B/RMX3201export_11_C.09_2022031900060000.zip
+  ROM_URL: https://bigota.d.miui.com/V12.5.9.0.RJQINXM/miui_LIMEINGlobal_V12.5.9.0.RJQINXM_9d4310c814_11.0.zip
 jobs:
   build:
     runs-on: ubuntu-latest
