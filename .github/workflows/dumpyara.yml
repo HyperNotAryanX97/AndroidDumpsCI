@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://downloads.corvusrom.com/RMX1971/vanilla/Corvus_vS4.0-Leviathan-RMX1971-Official-0854.zip
+  ROM_URL: https://sourceforge.net/projects/ricedroid-rmx1971/files/5.0/riceDroid-12.1-2022081708-RMX1971-v5.0-VANILLA.zip/download
 jobs:
   build:
     runs-on: ubuntu-latest
