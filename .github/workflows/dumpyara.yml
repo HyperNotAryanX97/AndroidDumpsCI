@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V13.1.22.9.28.DEV/miui_LIME_V13.1.22.9.28.DEV_51d62a660d_12.0.zip
+  ROM_URL: https://noods.ga/0:/MIRROR/DerpFest-13-Community-Tango-chime-20221002-0337.zip
 jobs:
   build:
     runs-on: ubuntu-latest
