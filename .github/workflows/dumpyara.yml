@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://sourceforge.net/projects/ricedroid-rmx1971/files/5.0/riceDroid-12.1-2022081708-RMX1971-v5.0-VANILLA.zip/download
+  ROM_URL: https://bigota.d.miui.com/V13.1.22.9.28.DEV/miui_LIME_V13.1.22.9.28.DEV_51d62a660d_12.0.zip
 jobs:
   build:
     runs-on: ubuntu-latest
