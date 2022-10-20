@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://noods.ga/0:/MIRROR/DerpFest-13-Community-Tango-chime-20221002-0337.zip
+  ROM_URL: https://sweet-frost.hyperx.workers.dev/0:/Spark-13.1-UNOFFICIAL-begonia-20221019-gapps.zip
 jobs:
   build:
     runs-on: ubuntu-latest
