@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://sweet-frost.hyperx.workers.dev/0:/DerpFest-13-Community-Tango-chime-20221014-2102.zip
+  ROM_URL: https://sourceforge.net/projects/pixelextended/files/juice/PixelExtended-4.9-chime-12.1-20220930-0442-OFFICIAL.zip/download
 jobs:
   build:
     runs-on: ubuntu-latest
