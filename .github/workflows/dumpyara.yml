@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://sourceforge.net/projects/pixelextended/files/juice/PixelExtended-4.9-chime-12.1-20220930-0442-OFFICIAL.zip/download
+  ROM_URL: https://bigota.d.miui.com/V14.0.1.0.SJQCNXM/miui_LIME_V14.0.1.0.SJQCNXM_06f239a125_12.0.zip
 jobs:
   build:
     runs-on: ubuntu-latest
