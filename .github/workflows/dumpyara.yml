@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bigota.d.miui.com/V14.0.2.0.SJQCNXM/miui_LIME_V14.0.2.0.SJQCNXM_e71d631a73_12.0.zip
+  ROM_URL: https://releases.grapheneos.org/bonito-factory-2023020600.zip
 jobs:
   build:
     runs-on: ubuntu-latest
