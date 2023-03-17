@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://releases.grapheneos.org/bonito-factory-2023020600.zip
+  ROM_URL: https://releases.grapheneos.org/bluejay-factory-2023031500.zip
 jobs:
   build:
     runs-on: ubuntu-latest
