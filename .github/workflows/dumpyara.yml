@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://releases.grapheneos.org/bluejay-factory-2023031500.zip
+  ROM_URL: https://sourceforge.net/projects/vosbegonia/files/voltage-2.3-begonia-20230213-1512-UNOFFICIAL.zip/download
 jobs:
   build:
     runs-on: ubuntu-latest
