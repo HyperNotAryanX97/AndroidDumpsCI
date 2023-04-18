@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://ayanhasabot.ayan98542.workers.dev/0:/2ae18bc3e36cfe74ae7f1b65d0f817043c57707a.zip
+  ROM_URL: https://github.com/itsHanibee/BTLG_Releases_chime/releases/download/NightDrive_7.1/BootleggersROM-Tirimbino4lime.7.1-Stable-UnShishufied-GApps-20230410-053826.zip
 jobs:
   build:
     runs-on: ubuntu-latest
