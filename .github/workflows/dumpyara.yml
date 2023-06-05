@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv14/xiaomi.eu_multi_MUNCH_V14.0.6.0.TLMCNXM_v14-13.zip/download
+  ROM_URL: https://edu.dipanshu.workers.dev/3:/Mirrors/PixelExtended-5.8_begonia-13.0-20230528-0910-UNOFFICIAL.zip
 jobs:
   build:
     runs-on: ubuntu-latest
