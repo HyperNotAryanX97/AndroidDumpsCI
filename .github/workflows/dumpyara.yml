@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://drive.google.com/file/d/1fd9LL5Yk3atf0n7u4TCb6S7LUa2YdOqw/view?usp=drive_link
+  ROM_URL: https://wxdowmloads.cn/d/GSI/MagicOS/MagicOS7.1.124-20231008-by%20wuxin_begonia.zip
 jobs:
   build:
     runs-on: ubuntu-latest
