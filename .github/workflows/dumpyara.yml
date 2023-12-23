@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://wxdowmloads.cn/d/%E7%BA%A2%E7%B1%B3Note8Pro%E5%88%B7%E6%9C%BA%E8%B5%84%E6%BA%90/%E7%AC%AC%E4%B8%89%E6%96%B9ROM/%E6%97%A0%E5%BF%83%E5%AE%98%E6%94%B9/21.11.24v5.x/ROM/5.2/FORF_begonia_V14.0.23.10.17.DEV-20231017_dd25b06435_WUXINROM_V5.2_V11.zip
+  ROM_URL: https://drive.google.com/file/d/1Zxpt_tWdJapjtlhot0RaFeGK7fgMKmEN/view?usp=drivesdk
 jobs:
   build:
     runs-on: ubuntu-latest
