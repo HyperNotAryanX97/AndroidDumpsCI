@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://drive.google.com/file/d/1Zxpt_tWdJapjtlhot0RaFeGK7fgMKmEN/view?usp=drivesdk
+  ROM_URL: https://harshdrive.com/0:/voltage-3.2-begonia-20240311-1542-OFFICIAL.zip
 jobs:
   build:
     runs-on: ubuntu-latest
