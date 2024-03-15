@@ -12,27 +12,28 @@ defaults:
 
 env:
   ROM_URL: https://harshdrive.com/0:/voltage-3.2-begonia-20240311-1542-OFFICIAL.zip
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
        - name: Checkouts
-         uses: actions/checkout@v2
+         uses: actions/checkout@v3
 
        - name: Clone Dumpyara
          run: |
               git clone https://github.com/AndroidDumpsCI/firmware_dumper
 
        - name: Setup Dumpyara environment
-         working-directory: phoenix_firmware_dumper
+         working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
               git config --global user.name "HyperNotAryanX97"
               git config --global user.email "ahirearyan2016@gmail.com"
 
        - name: Setup config envs
-         working-directory: phoenix_firmware_dumper
+         working-directory: firmware_dumper
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
               echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
@@ -40,6 +41,6 @@ jobs:
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
 
        - name: Running Dumpyara
-         working-directory: phoenix_firmware_dumper
+         working-directory: firmware_dumper
          run: |
-              ./dumper.sh  "$ROM_URL"
+              ./dump.sh "$ROM_URL"
