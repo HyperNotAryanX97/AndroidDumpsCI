@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://harshdrive.com/0:/voltage-3.2-begonia-20240311-1542-OFFICIAL.zip
+  ROM_URL: https://cdnorg.d.miui.com/OS1.0.2.0.UNPINXM/peridot_in_global_images_OS1.0.2.0.UNPINXM_20240423.0000.00_14.0_in_efdbc7f157.tgz
 
 jobs:
   build:
