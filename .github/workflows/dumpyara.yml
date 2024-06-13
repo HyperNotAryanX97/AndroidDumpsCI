@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://cdnorg.d.miui.com/OS1.0.2.0.UNPINXM/peridot_in_global_images_OS1.0.2.0.UNPINXM_20240423.0000.00_14.0_in_efdbc7f157.tgz
+  ROM_URL: https://sourceforge.net/projects/xagaproject/files/PixelOS/PixelOS-Plus_xaga-14.0-FASTBOOT-20240522-1147.zip/download
 
 jobs:
   build:
