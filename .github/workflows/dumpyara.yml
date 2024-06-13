@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://sourceforge.net/projects/xagaproject/files/PixelOS/PixelOS-Plus_xaga-14.0-FASTBOOT-20240522-1147.zip/download
+  ROM_URL: https://gofile.io/d/xqjijY
 
 jobs:
   build:
