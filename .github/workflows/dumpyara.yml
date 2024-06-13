@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://gofile.io/d/xqjijY
+  ROM_URL: https://store9.gofile.io/download/web/4c431c03-aa4b-46ad-a3f0-31139d361d07/super.img
 
 jobs:
   build:
