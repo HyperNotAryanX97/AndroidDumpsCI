@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://drive.google.com/file/d/1gXtJv8GdQhmO5AwaOTu9FshLQWIWRr5L/view
+  ROM_URL: https://mega-drive.rehan1rr22.workers.dev/0:/crDroid-v9.5-20240527-timjosten-begonia-full.zip
 
 jobs:
   build:
