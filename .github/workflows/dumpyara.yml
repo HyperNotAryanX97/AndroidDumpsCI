@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://dl.google.com/dl/android/aosp/akita-ota-ud2a.231203.054-6b2d9ff8.zip
+  ROM_URL: https://bashupload.com/nGQRr/jRgkw.zip?download=1
 
 jobs:
   build:
