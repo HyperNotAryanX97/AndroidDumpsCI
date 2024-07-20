@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://mega-drive.rehan1rr22.workers.dev/0:findpath?id=1gxJI1kCTEAdxuBMdvZh4qREXQxWGRIVx
+  ROM_URL: https://bn.d.miui.com/V14.0.9.0.TNQINXM/gold_in_global_images_V14.0.9.0.TNQINXM_20240523.0000.00_13.0_in_c6c8324ee4.tgz
 
 jobs:
   build:
