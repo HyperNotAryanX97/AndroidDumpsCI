@@ -21,26 +21,26 @@ jobs:
        - name: Checkouts
          uses: actions/checkout@v3
 
-       - name: Clone Dumpyara
+       - name: Clone DumprX
          run: |
-              git clone https://github.com/AndroidDumpsCI/firmware_dumper
+              git clone https://github.com/DumprX/DumprX
 
-       - name: Setup Dumpyara environment
-         working-directory: firmware_dumper
+       - name: Setup DumprX environment
+         working-directory: DumprX
          run: |
               sudo bash setup.sh
               git config --global user.name "HyperNotAryanX97"
               git config --global user.email "ahirearyan2016@gmail.com"
 
        - name: Setup config envs
-         working-directory: firmware_dumper
+         working-directory: DumprX
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
               echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
 
-       - name: Running Dumpyara
-         working-directory: firmware_dumper
+       - name: Running DumprX
+         working-directory: DumprX
          run: |
-              ./dump.sh "$ROM_URL"
+              ./dumper.sh "$ROM_URL"
