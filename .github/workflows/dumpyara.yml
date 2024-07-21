@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://bn.d.miui.com/V14.0.9.0.TNQINXM/gold_in_global_images_V14.0.9.0.TNQINXM_20240523.0000.00_13.0_in_c6c8324ee4.tgz
+  ROM_URL: https://bn.d.miui.com/V12.5.10.0.RGGINXM/miui_BEGONIAININGlobal_V12.5.10.0.RGGINXM_4716f60949_11.0.zip
 
 jobs:
   build:
@@ -21,26 +21,26 @@ jobs:
        - name: Checkouts
          uses: actions/checkout@v3
 
-       - name: Clone DumprX
+       - name: Clone Dumpyara
          run: |
-              git clone https://github.com/DumprX/DumprX
+              git clone https://github.com/AndroidDumpsCI/firmware_dumper
 
-       - name: Setup DumprX environment
-         working-directory: DumprX
+       - name: Setup Dumpyara environment
+         working-directory: firmware_dumper
          run: |
               sudo bash setup.sh
               git config --global user.name "HyperNotAryanX97"
               git config --global user.email "ahirearyan2016@gmail.com"
 
        - name: Setup config envs
-         working-directory: DumprX
+         working-directory: firmware_dumper
          run: |
               echo "${{ secrets.GIT_TOKEN }}" > .github_token
               echo "${{ secrets.GIT_ORG_NAME }}" > .github_orgname
               echo "${{ secrets.BOT_TOKEN }}" > .tg_token
               echo "${{ secrets.CHAT_ID }}" > .tg_chat
 
-       - name: Running DumprX
-         working-directory: DumprX
+       - name: Running Dumpyara
+         working-directory: firmware_dumper
          run: |
-              ./dumper.sh "$ROM_URL"
+              ./dump.sh "$ROM_URL"
