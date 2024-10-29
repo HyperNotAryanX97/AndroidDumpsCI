@@ -23,7 +23,7 @@ jobs:
 
        - name: Clone Dumpyara
          run: |
-              https://github.com/AndroidDumps/dumpyara
+              git clone https://github.com/AndroidDumps/dumpyara
 
        - name: Setup Dumpyara environment
          working-directory: dumpyara
