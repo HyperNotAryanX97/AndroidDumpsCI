@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: https://cdnorg.d.miui.com/V12.5.15.0.RGGEUXM/begonia_eea_global_images_V12.5.15.0.RGGEUXM_20220826.0000.00_11.0_eea_b8c6b15c15.tgz 
+  ROM_URL: https://cdnorg.d.miui.com/V12.5.15.0.RGGEUXM/begonia_eea_global_images_V12.5.15.0.RGGEUXM_20220826.0000.00_11.0_eea_b8c6b15c15.tgz
 
 jobs:
   build:
